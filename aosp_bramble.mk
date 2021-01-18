@@ -69,8 +69,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bramble \
     PRIVATE_BUILD_DESC="bramble-user 11 RQ1A.210105.003 7005429 release-keys"
     
-BUILD_FINGERPRINT="google/bramble/bramble:11/RQ1A.210105.003/7005429:user/release-keys"
-BUILD_THUMBPRINT="11/RQ1A.210105.003/7005429:user/release-keys"
+BUILD_FINGERPRINT := google/bramble/bramble:11/RQ1A.210105.003/7005429:user/release-keys
+BUILD_THUMBPRINT := 11/RQ1A.210105.003/7005429:user/release-keys
 
 PRODUCT_PACKAGES += \
     LineageThemesStub \
