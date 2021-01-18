@@ -50,8 +50,8 @@ $(call inherit-product-if-exists, vendor/google/redfin/redfin-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 # Exclude features that are not available on AOSP devices.
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/aosp_excluded_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/aosp_excluded_hardware.xml
+#PRODUCT_COPY_FILES += \
+#    frameworks/native/data/etc/aosp_excluded_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/aosp_excluded_hardware.xml
 
 # Don't build super.img.
 PRODUCT_BUILD_SUPER_PARTITION := false
