@@ -390,13 +390,13 @@
     <ctl name="DEC0_BCS Switch" value="1" />
 
     <!-- Volume controls -->
-    <ctl name="WSA_RX0 Digital Volume" value="84" />
-    <ctl name="WSA_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX2 Digital Volume" value="84" />
-    <ctl name="HPHL Volume" value="20" />
-    <ctl name="HPHR Volume" value="20" />
+    <ctl name="WSA_RX0 Digital Volume" value="88" />
+    <ctl name="WSA_RX1 Digital Volume" value="88" />
+    <ctl name="RX_RX0 Digital Volume" value="88" />
+    <ctl name="RX_RX1 Digital Volume" value="88" />
+    <ctl name="RX_RX2 Digital Volume" value="88" />
+    <ctl name="HPHL Volume" value="26" />
+    <ctl name="HPHR Volume" value="26" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
     <ctl name="TX_DEC0 Volume" value="102" />
@@ -2173,8 +2173,8 @@
         <ctl name="HPHR_COMP Switch" value="1" />
         <ctl name="HPHL_RDAC Switch" value="1" />
         <ctl name="HPHR_RDAC Switch" value="1" />
-        <ctl name="RX_RX0 Digital Volume" value="74" />
-        <ctl name="RX_RX1 Digital Volume" value="74" />
+        <ctl name="RX_RX0 Digital Volume" value="78" />
+        <ctl name="RX_RX1 Digital Volume" value="78" />
     </path>
 
     <path name="headphones-44.1">
@@ -2192,8 +2192,8 @@
 
     <path name="line">
         <path name="headphones" />
-        <ctl name="RX_RX0 Digital Volume" value="84" />
-        <ctl name="RX_RX1 Digital Volume" value="84" />
+        <ctl name="RX_RX0 Digital Volume" value="88" />
+        <ctl name="RX_RX1 Digital Volume" value="88" />
     </path>
 
     <path name="headset-mic">
@@ -2580,8 +2580,8 @@
         <ctl name="HPHR_COMP Switch" value="1" />
         <ctl name="HPHL_RDAC Switch" value="1" />
         <ctl name="HPHR_RDAC Switch" value="1" />
-        <ctl name="RX_RX0 Digital Volume" value="79" />
-        <ctl name="RX_RX1 Digital Volume" value="79" />
+        <ctl name="RX_RX0 Digital Volume" value="84" />
+        <ctl name="RX_RX1 Digital Volume" value="84" />
     </path>
 
     <path name="voice-tty-full-headphones">
