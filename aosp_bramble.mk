@@ -61,3 +61,10 @@ PRODUCT_BRAND := google
 PRODUCT_NAME := aosp_bramble
 PRODUCT_DEVICE := bramble
 PRODUCT_MODEL := Pixel 4a (5G)
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=bramble \
+    PRIVATE_BUILD_DESC="bramble-user 11 RQ1A.210205.004 7038034 release-keys"
+
+BUILD_FINGERPRINT := google/bramble/bramble:11/RQ1A.210205.004/7038034:user/release-keys
+BUILD_THUMBPRINT := 11/RQ1A.210205.004/7038034:user/release-keys
