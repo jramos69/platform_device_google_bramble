@@ -92,5 +92,5 @@
     ignore the gaze detection package -->
     <string translatable="false" name="config_cameraProtectionExcludedPackages">com.google.android.as</string>
 
-    <bool name="config_enableDisplayCutoutProtection">true</bool>
+    <bool name="config_enableDisplayCutoutProtection">false</bool>
 </resources>
