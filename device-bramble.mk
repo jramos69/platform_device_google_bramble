@@ -264,4 +264,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@4.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
-    
+
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
